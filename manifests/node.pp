@@ -1,4 +1,4 @@
-node 'webserver.test.com'{
+node 'client.test.com'{
   include java::install
   include tomcat
 }
