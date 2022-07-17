@@ -23,3 +23,11 @@ mod 'tomcat',
 mod 'java',
   git:    'git@github.com:gudsingh/java.git',
   branch: 'production'
+
+mod 'ntp',
+  git:    'git@github.com:gudsingh/ntp.git',
+  branch: 'production'
+
+mod 'stdlib',
+  git:    'git@github.com:gudsingh/stdlib.git',
+  branch: 'production'
