@@ -1,4 +1,5 @@
-node 'client.test.com' {
- inlcude java::install
- inlcude tomcat
+ node 'client.test.com' {
+   inlcude java::install
+   inlcude tomcat
+    
  }
