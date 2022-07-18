@@ -17,31 +17,31 @@ forge 'https://forge.puppet.com'
 #  branch: 'docs_experiment'
 
 mod 'tomcat',
-  git:    'git@github.com:gudsingh/tomcat.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/tomcat.git',
+  :branch => 'production'
 
 mod 'java',
-  git:    'git@github.com:gudsingh/java.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/java.git',
+  :branch => 'production'
 
 mod 'ntp',
-  git:    'git@github.com:gudsingh/ntp.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/ntp.git',
+  :branch => 'production'
 
 mod 'stdlib',
-  git:    'git@github.com:gudsingh/stdlib.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/stdlib.git',
+  :branch => 'production'
 
 mod 'roles',
-  git:    'git@github.com:gudsingh/roles.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/roles.git',
+  :branch => 'production'
 
 mod 'profiles',
-  git:    'git@github.com:gudsingh/profiles.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/profiles.git',
+  :branch => 'production'
 
 mod 'hieradata-nodes',
-  git:    'git@github.com:gudsingh/hieradata-nodes.git',
-  branch: 'production'
+  :git =>    'git@github.com:gudsingh/hieradata-nodes.git',
+  :branch => 'production'
   :install_path => 'hieradata'
 
