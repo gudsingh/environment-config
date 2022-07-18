@@ -31,3 +31,12 @@ mod 'ntp',
 mod 'stdlib',
   git:    'git@github.com:gudsingh/stdlib.git',
   branch: 'production'
+
+mod 'roles',
+  git:    'git@github.com:gudsingh/roles.git',
+  branch: 'production'
+
+mod 'profiles',
+  git:    'git@github.com:gudsingh/profiles.git',
+  branch: 'production'
+
