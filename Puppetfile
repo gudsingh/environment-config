@@ -40,3 +40,7 @@ mod 'profiles',
   git:    'git@github.com:gudsingh/profiles.git',
   branch: 'production'
 
+mod 'hieradata-nodes',
+  git:    'git@github.com:gudsingh/hieradata-nodes.git',
+  branch: 'production'
+  install_path => 'hieradata'
